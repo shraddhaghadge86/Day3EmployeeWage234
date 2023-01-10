@@ -9,8 +9,7 @@ public class EmployeeWage {
 
         if(employeeCheck == 1){
             System.out.println("Employee is present");
-        }
-        else{
+        }else{
             System.out.println("Employee is absent");
         }
     }
