@@ -5,7 +5,6 @@ public class EmployeeWage {
     static final int WAGE_PER_HOUR = 20;
 
     static final int FULL_DAY_HOUR = 8;
-
     public static void main(String[] args){
 
         double employeeCheck = (int) Math.floor(Math.random() * 10) % 2;
@@ -20,5 +19,6 @@ public class EmployeeWage {
         }
 
         System.out.println("Employee Wage: " + dailyWage);
+
     }
 }
