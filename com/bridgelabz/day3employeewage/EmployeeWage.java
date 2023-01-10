@@ -40,7 +40,6 @@ public class EmployeeWage {
                 default:
 
                     System.out.println("Employee is Absent");
-
             }
 
             System.out.println("Daily Wage for Day "+ dayCount + " => " + dailyWage);
